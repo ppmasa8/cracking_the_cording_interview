@@ -29,7 +29,7 @@ import (
 //	fmt.Println("true")
 //	os.Exit(0)
 //}
-// 時間計算量 O(n**2)
+// 時間計算量 O(n)
 
 // 制約ありver
 func main() {
@@ -53,6 +53,7 @@ func main() {
 		}
 	}
 }
+// 時間計算量O(nlogn)
 
 func mergeSort(s []string) []string {
 	var result []string

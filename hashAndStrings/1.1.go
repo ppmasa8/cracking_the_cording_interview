@@ -34,12 +34,12 @@ import (
 // 制約ありver
 func main() {
 	str := "jdfhajhfagk"
-	str_arr := []string{}
+	strArr := []string{}
 	// string型を[]string型に変換
 	for i := 0; i < len(str); i++ {
-		str_arr = append(str_arr, str[i:i+1])
+		strArr = append(strArr, str[i:i+1])
 	}
-	s := mergeSort(str_arr)
+	s := mergeSort(strArr)
 
 	for i, v := range s {
 		if i == len(s) {

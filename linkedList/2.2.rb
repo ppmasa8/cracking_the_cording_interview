@@ -13,3 +13,5 @@ def kth_to_last(node, k)
 
     slow_pointer.value
 end
+
+# Time complexity O(n)

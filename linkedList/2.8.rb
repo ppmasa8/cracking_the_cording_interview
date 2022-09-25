@@ -19,3 +19,5 @@ def detect_loop(node)
     end
     slow
 end
+
+# Time complexity O(n)

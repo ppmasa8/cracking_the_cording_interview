@@ -6,7 +6,7 @@ def detect_loop(node)
         return nil
     end
 
-    until fast && fast.next
+    until fast.nil? && fast.next.nil?
         fast = fast.next.next
         slow = slow.next
         break if fast == slow
